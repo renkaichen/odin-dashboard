@@ -30,7 +30,7 @@ body {
 }
 
 #main_content {
-    background-color: lightgray;
+    background-color: rgb(221, 229, 238);
 }
 
 .sidebar_icon {
@@ -84,7 +84,7 @@ body {
 }
 
 #searchbar {
-    background-color: lightgray;
+    background-color: rgb(221, 229, 238);
     height: 30px;
     border-radius: 20px;
     width: 650px;
