@@ -65,3 +65,50 @@ body {
     gap: 15px;
     font-size: large;
 }
+
+#header_top {
+    display: flex;
+    justify-content: space-between;
+
+    max-width: 80vw;
+    box-sizing: border-box;
+    padding: 25px 75px 0px 50px;
+}
+
+#search,
+#user {
+    display: flex;
+    align-items: center;
+}
+
+#searchbar {
+    background-color: lightgray;
+    height: 30px;
+    border-radius: 20px;
+    width: 700px;
+}
+
+#search {
+    gap: 15px;
+}
+
+#user {
+    justify-content: end;
+    gap: 30px;
+    width: 400px;
+}
+
+#user h2 {
+    text-wrap: nowrap;
+    width: fit-content;
+}
+
+#profilepic {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-image: url(https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png);
+    background-position: center center;
+    background-size: cover;
+}
